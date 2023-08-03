@@ -691,7 +691,7 @@ def showMark(mark):
     show_frame.place(relwidth=0.8,relheight=0.8,relx=0.1,rely=0.1)
     
     st = "Your score is "+str(mark)
-    mlabel = Label(show_canvas,text=st,fg="black")
+    mlabel = Label(show_canvas,text=st,fg="black", font = ("Times", 20, "bold"))
     mlabel.place(relx=0.5,rely=0.2,anchor=CENTER)
     
     sh.mainloop()
